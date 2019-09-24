@@ -1,0 +1,268 @@
+
+body {
+  margin:0;
+  padding:0;
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+#projects-title {
+  display:flex;
+  justify-content: center;
+}
+
+#skills-title {
+  display:flex;
+  justify-content: center;
+}
+
+#contact-title {
+  display:flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+#intro {
+  height:100vh;
+  width:100vw;
+}
+
+#subtitle {
+  margin:0;
+}
+.project {
+  border-style: solid;
+  border-radius:30px;
+  height:33vh;
+  width:33vw;
+  background-color:blue;
+  display:flex;
+  /* flex-direction:column; */
+  /* justify-content: flex-start; */
+  align-items:center;
+  top:10px;
+}
+
+.project p {
+  color:black;;;
+  font-size:12px;
+}
+
+.project a {
+  color:black;;;
+  font-size:20px;
+}
+
+.project h3 {
+  position: relative;
+  top: 1px;
+}
+
+.project a img {
+  width:100px;
+  height:100px;
+}
+
+#skills-title{
+  padding-top:10px;
+}
+
+
+#project-container {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  /* background-color:gray; */
+  /* height: 90vh; */
+  /* width:100vw; */
+}
+
+#skills-container {
+  height:100vh;
+  width:100vw;
+}
+#skills-top-row{
+ display:flex;
+ justify-content:space-between;
+}
+
+#skills-top-row div {
+  
+}
+#skills-bottom-row{
+  margin-top:15px;
+  display:flex;
+  justify-content:center;
+}
+
+#section-boxes {
+  display:flex;
+  justify-content:space-around;
+}
+
+
+.skill-box {
+  border: 2px solid white;
+  height:25vh;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.skill-box h3 {
+  font-size: 15px;
+  text-align:center;
+}
+
+.skill-box ul {
+  list-style:none;
+  padding-left:10px;
+  padding-right:10px;
+  text-align:center;
+}
+
+.skill-box ul li {
+  font-size:12px;
+  margin-left:none;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+#subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+#projects {
+  height:100vh;
+  width:100vw;
+  background-color:grey;
+}
+
+.main-carousel {
+  height:100vh;
+  width:100vw;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: gray;
+  border:solid 2px;
+  position:relative;
+  top:10%;
+}
+
+.carousel-cell {
+  width: 75%;
+  height: 60vh;
+  min-height:350px;
+  max-height:610px;
+  margin-right: 10px;
+  background: #8C8;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+
+}
+
+#healthbank-gif {
+
+}
+
+/* cell number */
+/* .carousel-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(carousel-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+} */
+
+#skills {
+  height: 100vh;
+  width:100vw;
+}
+#contact {
+  height: 100vh;
+  width:100vw;
+}
+
+#one {
+  height:100px;
+  width:100px;
+  background-color:red;
+}
+#two {
+  height:100px;
+  width:100px;
+  background-color:green;
+  
+}
+#three {
+  height:100px;
+  width:100px;
+  background-color:blue;
+
+}
+
+#box-wrapper {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+#nav-list {
+  display:flex;
+  opacity:1;
+  justify-content: center;
+}
+
+#links-top {
+  list-style:none;
+  padding-left:1px;
+  display: flex;
+  justify-content:space-around;
+
+}
+#links-bottom {
+  list-style:none;
+  display: flex;
+  justify-content:space-around;
+  padding:none;
+
+}
+
+#contact ul li a i {
+  /* background-color:blue; */
+  font-size:100px;
+  color: lightblue;
+  padding:10px;
+}
+
+
+
+
+/* For desktop */
+
+@media only screen and (min-width: 768px) {
+  /* body {
+    
+  } */
+
+  nav[role="nav"] {
+    display: none;
+  }
+}
+

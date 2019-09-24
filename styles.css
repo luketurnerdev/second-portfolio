@@ -1,0 +1,399 @@
+
+body {
+  margin:0;
+  padding:0;
+  background: #232323;
+  color: #cdcdcd;
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
+#projects-title {
+  display:flex;
+  justify-content: center;
+}
+
+#skills-title {
+  display:flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+#intro {
+  height:100vh;
+  width:100vw;
+}
+
+#subtitle {
+  margin:0;
+}
+.project {
+  border-style: solid;
+  border-radius:30px;
+  height:33vh;
+  width:33vw;
+  background-color:blue;
+  display:flex;
+  /* flex-direction:column; */
+  /* justify-content: flex-start; */
+  align-items:center;
+  top:10px;
+}
+
+.project p {
+  color:black;;;
+  font-size:12px;
+}
+
+.project a {
+  color:black;;;
+  font-size:20px;
+}
+
+.project h3 {
+  position: relative;
+  top: 1px;
+}
+
+.project a img {
+  width:100px;
+  height:100px;
+}
+
+#skills-title{
+  padding-top:10px;
+}
+
+
+#project-container {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  /* background-color:gray; */
+  /* height: 90vh; */
+  /* width:100vw; */
+}
+
+#skills-container {
+  height:100vh;
+  width:100vw;
+}
+#skills-top-row{
+
+}
+
+#skills-top-row div {
+  width: 75vw;
+  position:relative;
+  margin: 0 auto;
+  padding-bottom:15px;
+}
+#skills-bottom-row{
+  margin-top:15px;
+  display:flex;
+  justify-content:center;
+}
+
+#section-boxes {
+  display:flex;
+  justify-content:space-around;
+}
+
+
+.skill-box {
+  border: 1px solid white;
+  height:25vh;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+}
+
+.skill-box h3 {
+  font-size: 15px;
+  text-align:center;
+}
+
+.skill-box ul {
+  list-style:none;
+  padding-left:10px;
+  padding-right:10px;
+  text-align:center;
+}
+
+.skill-box ul li {
+  font-size:12px;
+  margin-left:none;
+}
+
+#title {
+  display: flex;
+  justify-content: center;
+}
+
+#subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+#projects {
+  height:100vh;
+  width:100vw;
+  background-color:rgb(209, 187, 60);
+}
+
+.main-carousel {
+  height:100vh;
+  width:100vw;
+}
+
+/* Healthbank Stuff */
+
+/* #healthbank h1 {
+  color: rgb(235, 235, 235);
+  display:flex;
+  justify-content: center;
+}
+
+
+#healthbank-gif {
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: block;
+  justify-content: center; 
+  opacity:1;
+
+  transition: opacity .7s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+}
+
+#healthbank-info {
+  opacity:0;
+}
+
+#healthbank-container {
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: block;
+  justify-content: center; 
+}
+
+#healthbank-container:hover #healthbank-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:50vw;
+  height:50vh;
+  margin: 0 auto;
+  background-color:grey;
+  /* Place it where the image was */
+  /* position: absolute;
+  top: 7vh;
+
+  Transition
+  opacity:1;
+  transition: opacity .7s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out; */
+/* } */
+
+/* #healthbank-container:hover #healthbank-info p {
+  font-size:25px;
+  text-align: center;
+}
+
+#healthbank-container:hover #healthbank-info a {
+  font-size:25px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#healthbank-container:hover #healthbank-gif {
+  opacity:0;
+} */ 
+
+/*  END Healthbank Stuff */
+
+.project-div h1 {
+  color: rgb(235, 235, 235);
+  display:flex;
+  justify-content: center;
+}
+
+
+.project-pic {
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: block;
+  justify-content: center; 
+  opacity:1;
+
+  transition: opacity .7s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+}
+
+.project-info {
+  opacity:0;
+}
+
+.project-inner-container:hover .project-pic{
+  opacity:0;
+}
+
+.project-inner-container {
+  width: 50vw;
+  height: 50vh;
+  margin: 0 auto;
+  display: block;
+  justify-content: center; 
+}
+
+.project-inner-container:hover .project-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width:50vw;
+  height:50vh;
+  margin: 0 auto;
+  background-color:grey;
+  /* Place it where the image was */
+  position: absolute;
+  top: 7vh;
+
+  /* Transition */
+  opacity:1;
+  transition: opacity .7s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  -webkit-transition: opacity .5s ease-in-out;
+  -o-transition: opacity .5s ease-in-out;
+}
+
+.project-inner-container:hover .project-info p {
+  font-size:25px;
+  text-align: center;
+}
+
+.project-inner-container:hover .project-info a {
+  font-size:25px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: white;
+  border:solid 2px;
+  position:relative;
+  top:10%;
+}
+
+.carousel-cell {
+  width: 75%;
+  height: 60vh;
+  min-height:350px;
+  max-height:610px;
+  margin-right: 10px;
+  background: green;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+
+
+#skills {
+  height: 100vh;
+  width:100vw;
+}
+#contact {
+  height: 100vh;
+  width:100vw;
+}
+
+
+
+#box-wrapper {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+#nav-list {
+  display:flex;
+  opacity:1;
+  justify-content: center;
+}
+
+#links-container {
+  position:relative;
+  top:15vh;
+}
+
+#links-top {
+  list-style:none;
+  padding-left:1px;
+  display: flex;
+  justify-content:space-around;
+
+}
+#links-bottom {
+  list-style:none;
+  display: flex;
+  justify-content:space-around;
+  padding:none;
+}
+
+#top-link {
+  display:flex;
+  justify-content:center;
+  position:relative;
+  bottom:100px
+}
+
+#contact-title {
+  padding-top:15px;
+  display:flex;
+  justify-content: center;
+}
+
+#contact ul li a i {
+  /* background-color:blue; */
+  font-size:70px;
+  color: lightblue;
+  padding:10px;
+}
+
+
+
+
+/* For desktop */
+
+@media only screen and (min-width: 768px) {
+  
+  
+  
+/* SKILLS */
+  
+  #skills-top-row{
+    display:flex;
+    justify-content:space-around;
+   }
+
+   #skills-top-row{
+    display:flex;
+    justify-content:space-around;
+   }
+}
+
